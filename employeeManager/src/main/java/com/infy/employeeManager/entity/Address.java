@@ -14,7 +14,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 @Entity
 @Cache(usage=CacheConcurrencyStrategy.READ_WRITE)
-public class Address implements Serializable{
+public class Address implements Serializable {
 	@Id
 	@Column(name="addr_id")
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seqGen")
