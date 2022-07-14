@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "Service.EMPLOYEE_NOT_FOUND",
+  "type": "java.lang.String",
+  "description": "A description for 'Service.EMPLOYEE_NOT_FOUND'"
+}]}
